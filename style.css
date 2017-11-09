@@ -1,0 +1,49 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 32rem;
+}
+.list_item {
+    flex: 3 0 50%;
+    padding: .5rem 1rem;
+    margin: .2rem;
+    display: block;
+}
+
+.weather{
+    align-self: center;
+    background: #00A5F7;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: .25rem;
+    border-radius: .25rem;
+    display: block;
+    width: 2.5rem;
+    text-align: center;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: .8rem !important;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
